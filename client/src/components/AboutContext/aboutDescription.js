@@ -1,4 +1,3 @@
-
 import React, { Component, Suspense} from 'react';
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
@@ -9,8 +8,8 @@ import { lazy } from '@loadable/component'
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
 import Button from '@material-ui/core/Button';
-
 import styled from "styled-components";
+
 const StyledButton = styled(Button)`
   
 	 width: 80%;
